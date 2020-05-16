@@ -50,7 +50,7 @@ func genBody(gh *github.Client, ctx context.Context, issue database.Issue) (
 			if wallet.Address == "" {
 				continue
 			}
-			format = "- ADA: [%s](https://www.seiza.com/blockchain/address/%s)\n"
+			format = "- ADA: [%s](https://seiza.com/blockchain/address/%s)\n"
 		}
 		body += fmt.Sprintf(format, wallet.Address, wallet.Address)
 	}
