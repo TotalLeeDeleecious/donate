@@ -4,8 +4,8 @@
     fetch = {
       type = "git";
       url = "https://code.dumpstack.io/lib/cryptocurrency";
-      rev = "e76f2c8496edd19ed40556eacadd1acf8c896f71";
-      sha256 = "1mdaaxmgf5zbq21xbqlndvnwgjwfz95jbgapkw2z5cq03s976hmq";
+      rev = "eb98f6e54ebca001cee9795f0bdae7a4584eb90d";
+      sha256 = "04azv299a19976qlsfcqzmqbpq069nj8p1ijh9pvhb7ih3shsswb";
     };
   }
   {
@@ -211,8 +211,8 @@
     fetch = {
       type = "git";
       url = "https://github.com/wasmerio/go-ext-wasm";
-      rev = "c27bd6f62e716c1e37de57d2efe5a063d343a96f";
-      sha256 = "0c6qrfhip5gaj4yv1f2pnvv0k8xj2vlfzx9cqy7d2zrzf90krm91";
+      rev = "75326bf847202945964e09905ecf64bd9d1baeee";
+      sha256 = "1s8csasahjrhgfv3578jy75qaxbsdx10x8y7pcb5y3hvyqq10gqi";
     };
   }
   {
@@ -220,8 +220,8 @@
     fetch = {
       type = "git";
       url = "https://go.googlesource.com/crypto";
-      rev = "6d4e4cb37c7d6416dfea8472e751c7b6615267a6";
-      sha256 = "1a2m208zqwx6r4c52ls230r1bc35s3dgihqjqq9ylzii4az7qz9c";
+      rev = "ecb85df213405b7d32e4d73cb5bbaace2ec88881";
+      sha256 = "09mmrrj2003zcyx0m0zyx4nkk1rgrcnrqgy7c0zx5r831s4df9x7";
     };
   }
   {

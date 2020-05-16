@@ -16,7 +16,7 @@ in with pkgs; buildGoPackage rec {
   # library so, build will be stopped because RPATH will contain
   # /build/go/...
   preFixup = let libPath = stdenv.lib.makeLibraryPath [ glibc ]; in ''
-    RUNTIME=/build/go/src/github.com/wasmerio/go-ext-wasm/wasmer/libwasmer_runtime_c_api.so
+    RUNTIME=/build/go/src/github.com/wasmerio/go-ext-wasm/wasmer/libwasmer.so
     mkdir $bin/lib
     cp $RUNTIME $bin/lib/
     patchelf --set-rpath $bin/lib:${libPath} "$bin/bin/${pname}"
