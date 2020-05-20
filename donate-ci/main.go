@@ -20,7 +20,7 @@ import (
 	"golang.org/x/oauth2"
 	kingpin "gopkg.in/alecthomas/kingpin.v2"
 
-	c "code.dumpstack.io/lib/cryptocurrency"
+	c "code.dumpstack.io/lib/cryptocurrency/v2"
 	"code.dumpstack.io/tools/donate/database"
 )
 

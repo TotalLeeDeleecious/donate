@@ -10,7 +10,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	c "code.dumpstack.io/lib/cryptocurrency"
+	c "code.dumpstack.io/lib/cryptocurrency/v2"
 )
 
 func TestDB(t *testing.T) {

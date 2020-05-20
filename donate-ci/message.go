@@ -17,7 +17,7 @@ import (
 	"strconv"
 	"strings"
 
-	c "code.dumpstack.io/lib/cryptocurrency"
+	c "code.dumpstack.io/lib/cryptocurrency/v2"
 	"code.dumpstack.io/tools/donate/database"
 	"github.com/google/go-github/v29/github"
 )

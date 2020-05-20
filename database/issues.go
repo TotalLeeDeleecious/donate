@@ -7,7 +7,7 @@ package database
 import (
 	"database/sql"
 
-	c "code.dumpstack.io/lib/cryptocurrency"
+	c "code.dumpstack.io/lib/cryptocurrency/v2"
 )
 
 // GetWallets for the issue. Repo and ID of the issue should be filled.

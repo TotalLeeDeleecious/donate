@@ -5,7 +5,7 @@
 package database
 
 import (
-	c "code.dumpstack.io/lib/cryptocurrency"
+	c "code.dumpstack.io/lib/cryptocurrency/v2"
 )
 
 // SeedPrivacy declare should be seed shown in wallet structure or not

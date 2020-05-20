@@ -12,7 +12,7 @@ import (
 	"os"
 	"time"
 
-	c "code.dumpstack.io/lib/cryptocurrency"
+	c "code.dumpstack.io/lib/cryptocurrency/v2"
 	"github.com/google/go-github/v29/github"
 	"golang.org/x/oauth2"
 	kingpin "gopkg.in/alecthomas/kingpin.v2"
