@@ -3,7 +3,7 @@
 [Download NixOS installation ISO](https://nixos.org/nixos/download.html)
 
 Notes:
-1. I assume that latest **stable** (e.g. 19.09) ISO will be used for installation.
+1. I assume that latest **stable** (e.g. 20.03) ISO will be used for installation.
 2. You need to change hostname, github token and ssh key in `configuration.nix`.
 
 ## Installation
