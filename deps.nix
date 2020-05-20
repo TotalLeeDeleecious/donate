@@ -1,11 +1,11 @@
 [
   {
-    goPackagePath = "code.dumpstack.io/lib/cryptocurrency";
+    goPackagePath = "code.dumpstack.io/lib/cryptocurrency/v2";
     fetch = {
       type = "git";
       url = "https://code.dumpstack.io/lib/cryptocurrency";
-      rev = "eb98f6e54ebca001cee9795f0bdae7a4584eb90d";
-      sha256 = "04azv299a19976qlsfcqzmqbpq069nj8p1ijh9pvhb7ih3shsswb";
+      rev = "da8c6212e0eb413563b50a2047c68bff54c77300";
+      sha256 = "1p31vn50w5hnlw9z38i84jxpn08my09wsgc60zbqx5h9psl6vg23";
     };
   }
   {
