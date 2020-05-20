@@ -10,7 +10,7 @@ Goals:
 - KISS.
 - Zero-fee (the fee is voluntary as a donation to the project).
 - Self-hosted.
-- Multiple cryptocurrencies (Bitcoin, Ethereum and Cardano).
+- Multiple cryptocurrencies (Bitcoin, Ethereum, Cardano, and [you can add other by yourself](https://github.com/jollheef/cryptocurrency)).
 - Multiple hosting (so far GitHub only).
 
 How it works:
