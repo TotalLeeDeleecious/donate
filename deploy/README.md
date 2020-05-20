@@ -4,7 +4,7 @@
 
 Notes:
 1. I assume that latest **stable** (e.g. 20.03) ISO will be used for installation.
-2. You need to change hostname, github token and ssh key in `configuration.nix`.
+2. You need to change email, hostname, github token and ssh key in `configuration.nix`.
 
 ## Installation
 

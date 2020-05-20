@@ -1,6 +1,7 @@
 { config, pkgs, lib, ... }:
 
 let
+  email = "changeme"; # for lets encrypt
   hostname = "changeme"; # e.g. donate.dumpstack.io
   github_token = "changeme"; # https://github.com/settings/tokens/new, no any scopes required
   ssh_key = "changeme"; # e.g. ssh-rsa AAA.....== user@localhost
@@ -37,6 +38,11 @@ in {
 
   users.extraUsers.root = {
     openssh.authorizedKeys.keys = [ ssh_key ];
+  };
+
+  security.acme = {
+    acceptTerms = true;
+    email = "${email}";
   };
 
   services.nginx = {
