@@ -69,7 +69,10 @@ in {
   };
 
   system.stateVersion = "20.03";
-  system.autoUpgrade.enable = true;
+  system.autoUpgrade = {
+    enable = true;
+    allowReboot = true;
+  };
 
   nix = {
     optimise.automatic = true;
